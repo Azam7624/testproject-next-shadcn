@@ -5,7 +5,7 @@ import React from 'react'
 const CustomerClub = () => {
   return (
     <div className='w-full'>
-        <div className='flex items-center text-[12px] mb-2'>امکانات<span className='text-[14px] text-[#0D61A4]'>/</span><span className='font-bold'>باشگاه مشتریان</span></div>
+        
         <Tabs defaultValue="account" dir='rtl'>
       <TabsList className="grid w-full grid-cols-2">
         <TabsTrigger value="account">هزینه ها</TabsTrigger>

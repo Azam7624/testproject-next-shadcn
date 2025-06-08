@@ -58,6 +58,8 @@ import TableComponent from "./wallet-test/table/table";
 import Wellcome from "./wallet-test/login/wellcome";
 import CustomerClub from "./wallet-test/customerClub/customer-club";
 import FacilitiesRequest from "./wallet-test/facilitiesRequest/facilities-request";
+import Modal from "./wallet-test/modal/modal";
+import SwiperExample from "./wallet-test/swiper/Swiper-Example";
 // const queryClient = new QueryClient()
 
 export default function App() {
@@ -75,7 +77,7 @@ export default function App() {
   console.log(formatPersianDate("2025-05-05T10:05:36"));
 
   return (
-    <div dir="rtl" className="mt-8 gap-x-12 text-center p-4">
+    <div dir="" className="mt-8 gap-x-12 text-center p-4">
       {/* <TextInputComponent label='a' fieldClassName="h-[50px]" required/> */}
       {/* <Activities />
       <ProductList /> */}
@@ -87,6 +89,8 @@ export default function App() {
         {/* <TableComponent /> */}
       {/* <CustomerClub/> */}
       <FacilitiesRequest/>
+      <SwiperExample/>
+      {/* <Modal/> */}
       </div>
     </div>
   );
